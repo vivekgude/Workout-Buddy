@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
-const workoutRoutes = require('./backend/routes/workouts');
-const userRoutes = require('./backend/routes/user');
+const workoutRoutes = require('./routes/workouts');
+const userRoutes = require('./routes/user');
 
 // express app
 const app = express();
